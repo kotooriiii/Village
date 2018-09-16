@@ -1,4 +1,4 @@
-//META{"name":"VillageTheme","description":"A fresh lightweight theme for Discord with 15+ customizable variables for your use!","author":"Kotori#4236","version":"1.0"}*//{}
+//META{"name":"Village","description":"no desc available yet","author":"Kotori#4236","version":"1.0"}*//{}
 
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -20,22 +20,18 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     --main-color: #696969;
     --voice-user-color: #008085;
     --hover-color: rgba(57, 101, 167, 0.2);
-    --hover-text-color: rgb(95, 155, 0);
-    --channel-color: #F0FFFF;
-    --unread-color: yellow;
+    --hover-text-color: grey;
+    --channel-color: grey;
+    --unread-color: white;
     --channel-selected-color: rgb(124, 65, 70);
     --voice-speak-color: rgb(107, 69, 66);
     --chat-color: white;
     --emoji-menu-background: rgba(65, 24, 0, 0.9);
 
     /* FONTS */
-    --main-font:"Gamja Flower";
-	/*DEFAULT FONT:
-		--chat-font: ;
-    		--font-size: 15px;
-	*/
-    --chat-font: "Gamja Flower";
-    --font-size: 16px;
+    --main-font: "Gamja Flower";
+    --chat-font: ;
+    --font-size: 15px;
 	
     /* IMAGE */
 	--background-image: url(https://wallpapercave.com/wp/wp1951626.jpg);	
