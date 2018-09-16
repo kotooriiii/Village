@@ -1,4 +1,4 @@
-//META{"name":"Village","description":"no desc available yet","author":"Kotori#4236","version":"1.0"}*//{}
+//META{"name":"VillageTheme","description":"A fresh lightweight theme for Discord with 15+ customizable variables for your use!","author":"Kotori#4236","version":"1.0"}*//{}
 
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -10,7 +10,8 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 */
 
 /* IMPORT CSS FROM GITHUB, this is the ENTIRETY logic and "makeup" for discord's feel. */
-@import url('VillageLogic.theme.css'); 
+@import url('https://rawgit.com/KotoriXIII/VillageTheme/master/VillageLogic.css'); 
+@import url('https://rawgit.com/KotoriXIII/Village/master/VillageLogic.css'); 
 @import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
 
 /* ========== CUSTOMIZABLE VARIABLES ========== */
