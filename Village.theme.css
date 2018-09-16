@@ -1,0 +1,54 @@
+//META{"name":"Village","description":"no desc available yet","author":"Kotori#4236","version":"1.0"}*//{}
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
+---------------------------------------------------------------------------------------------------------------------------------------------
+-> If some elements are broken, there is either: A new theme version available, or Discord has just updated and you need to redownload Zere's copy.
+-> If you notice elements are broken for a prolonged amount of time, lmk on discord Kotori#4236. 
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* IMPORT CSS FROM GITHUB, this is the ENTIRETY logic and "makeup" for discord's feel. */
+@import url('VillageLogic.theme.css'); 
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+/* ========== CUSTOMIZABLE VARIABLES ========== */
+:root {
+    /* COLORS */
+    --main-color: #696969;
+    --voice-user-color: #008085;
+    --hover-color: rgba(57, 101, 167, 0.2);
+    --hover-text-color: rgb(95, 155, 0);
+    --channel-color: #F0FFFF;
+    --unread-color: yellow;
+    --channel-selected-color: rgb(124, 65, 70);
+    --voice-speak-color: rgb(107, 69, 66);
+    --chat-color: white;
+    --emoji-menu-background: rgba(65, 24, 0, 0.9);
+
+    /* FONTS */
+    --main-font:"Gamja Flower";
+    --chat-font: "Gamja Flower";
+    --font-size: 16px;
+	
+    /* IMAGE */
+	--background-image: url(https://wallpapercave.com/wp/wp1951626.jpg);	
+    --dm-image: url(https://i.pinimg.com/originals/09/6d/f0/096df0eb195b8f0d9475924f9a1e9425.jpg);
+    --profile-image: url(https://cdna.artstation.com/p/assets/images/images/006/079/376/large/way-way-juren4.jpg?1495894329);
+	--nsfw-image: url(https://s-media-cache-ak0.pinimg.com/236x/74/a4/e6/74a4e6b39c343529e2933bd8f59a696e.jpg);
+	
+    /* MISC */
+	--background-opacity: 0.1; 
+    --emoji-size: 1.5em;
+    
+    /* SETTINGS */
+
+    /*
+     Let me know what other settings I should add ^-^. Kotori#4236
+    */
+
+
+}
+
+  

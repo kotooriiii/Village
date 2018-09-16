@@ -1,0 +1,268 @@
+/*------------------ THE ACTUAL LOGIC THIS IS ONLY BECAUSE IS BETA ---------------------------*/
+
+/* Home Icon using the DM icon also known as the friend's private message icon.*/
+.theme-dark .homeIcon-1FoKUJ {
+    color: rgba(0, 0, 0, 0);
+    background-image: var(--dm-image);
+    background-size: cover;
+    position: relative;
+    
+}
+
+ 
+/**FIXER **/
+.theme-dark .headerBar-UHpsPw,
+.theme-dark .chat-3bRxxu, 
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3,
+.content-yTz4x3,
+#voice-connection, 
+#friends, 
+#app-mount .activityFeed-28jde9,
+#app-mount .da-activity-feed,
+.theme-dark .guildsWrapper-5TJh6A,
+.theme-dark #friends,
+.friends-header, 
+.friends-table, 
+.guilds-wrapper, 
+.guild-header header, 
+.channels-wrap, 
+.private-channels .search-bar, 
+.private-channels, 
+.guild-channels, 
+.account, 
+.friend-table-add-header,
+.chat, 
+.content, 
+.title-wrap:not(.search-bar), 
+.messages-wrapper, 
+.messages .divider span, 
+.messages .divider:before, 
+.content, .message-group-blocked, 
+.is-local-bot-message,
+.channel-members-loading, 
+.channel-members-loading .heading, 
+.channel-members-loading .member, 
+.typing, 
+.container-RYiLUQ, 
+.theme-dark .ui-standard-sidebar-view, 
+.theme-dark .ui-standard-sidebar-view .sidebar-region,
+.theme-dark .ui-standard-sidebar-view .content-region,
+.theme-dark .channel-members,
+.container-2OU7Cz,
+.theme-dark .chat form, 
+.channels-3g2vYe, 
+.theme-dark .friends-table, 
+.theme-dark .messages-wrapper, 
+.content .flex-spacer, 
+.theme-dark .chat>.content, 
+.theme-dark .chat, 
+.channel-members, 
+.search .search-bar, 
+.container-iksrDt, 
+.container-3lnMWU, 
+.theme-dark .title-qAcLxz, 
+.theme-dark .typing-3eiiL_,
+.theme-dark .activityFeed-HeiGwL,
+.theme-dark .headerBar-cxbhPD,
+.theme-dark .lfg-3xoFkI,
+.video-3lOWa6,
+.theme-dark .private-channel-call,
+.appMount-3VJmYg,
+.container-2lgZY8,
+.channels-Ie2l6A,
+.container-PNkimc,
+.container-2Thooq,
+.theme-dark .title-3qD0b-,
+.theme-dark .typing-2GQL18,
+.search-bar.search-bar-light,
+.theme-dark .layer-3QrUeG, 
+.theme-dark .layers-3iHuyZ,
+.videoInner-3OR9J2,
+.video-1FfuMD,
+.theme-dark .wrapper-29NfPK,
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
+.theme-dark .members-1998pB{
+  background: rgba(0, 0, 0, var(--background-opacity));
+  z-index: 0;
+  
+}
+
+/* top bar */
+.typeWindows-1za-n7 {
+    height: 18px;
+    margin-top: 0px;
+}
+.winButton-iRh8-Z {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    height: 28px;
+    opacity: .6;
+    pointer-events: auto;
+    position: relative;
+    top: -4px;
+    width: 28px;
+}
+
+.theme-dark .iconForeground-3y9f0B, .theme-dark .title-1aVOXw {
+    color: var(--main-color);
+}
+
+/* top side bar */
+.typeWindows-1za-n7 {
+    height: 24px;
+    background-color: var(--main-color);
+}
+/* Private messaging, private group chats, etc */
+.private-channels {
+ background: rgba(0, 0, 0, --background-opacity);
+}
+/* Place the background image variable in this layer */
+.app-19_DXt{
+    content: '';
+    background-image:var(--background-image);
+    background-size: cover;   
+    position: relative;
+}
+
+
+/* default channel already read */
+.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {
+    color: var(--channel-color);
+    font-family: var(--main-font);
+}
+/* user connected */
+.nameConnectedVoice-MHUX5F, .name-3M0b8v, .overflowEllipsis-jeThUf
+{
+    font-family: var(--main-font);
+}
+
+/* title rank rightside */
+.theme-dark .membersGroup-v9BXpm {
+    font-family: var(--main-font);
+    color: var(--channel-color);
+}
+
+/* user rank on right */
+.theme-dark .memberOnline-1CIh-0 {
+    font-family: var(--main-font);
+}
+
+/* hovering over channels */
+
+.content-20Aix8:hover, 
+.nameDefaultText-24KCy5:hover {
+    background-color: var(--hover-color);
+
+}
+  .overflowEllipsis-jeThUf:hover  {
+    color: var(--hover-text-color);
+}
+
+/* default voice channel user */
+.name-2upRM5, .nameHovered-21k1eo,
+.margin-reset {
+    color: var(--voice-user-color);
+    font-family: var(--main-font);
+
+}
+
+/* unread channel */
+.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
+    color: var(--unread-color);
+    font-family: var(--main-font);
+}
+
+/* channel selected color */
+.contentSelectedText-3wUhMi{
+    background-color: var(--channel-selected-color);
+
+}
+.da-name .da-overflowEllipsis {
+        font-family: var(--main-font);
+     
+}
+/* speak color */
+.avatarSpeaking-1wJCNq {
+    -webkit-box-shadow: 0 0 0 2px #43b581, inset 0 0 0 1.5px #2f3136;
+    box-shadow: 0 0 0 2px var(--voice-speak-color), inset 0 0 0 1.5px #2f3136;
+}
+
+/* chat color */
+.theme-dark .markup-2BOw-j {
+    color: var(--chat-color);
+    font-family: var(--chat-font);
+    font-size: var(--font-size);
+}
+/* emoji */
+.emoji {
+    -o-object-fit: contain;
+    height: var(--emoji-size);
+    margin-left: .05em;
+    margin-right: .1em;
+    object-fit: contain;
+    vertical-align: -.4em;
+    width: var(--emoji-size);
+}
+.bda-dark #bda-qem:hover button:hover {
+    background-color: var(--hover-color);
+
+}
+.bda-dark #bda-qem button {
+    background-color: var(--main-color);
+
+}
+
+.bda-dark #bda-qem button.active {
+    background-color: var(--channel-selected-color);
+}
+
+.bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j,
+.bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar, .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container{
+    background-color: var(--emoji-menu-background);
+}
+
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA>.spriteItem-2AFL7r {
+    height: 22px;
+    margin: 3px;
+    width: 22px;
+    background-color:transparent;
+}
+.emojiItem-109bjA>.spriteItem-2AFL7r:hover{
+    transform: scale(1.2);
+}
+
+.theme-dark .headerNormal-T_seeN,
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .headerPlaying-j0WQBV {
+    background-color: rgba(47, 49, 54, 0.86);
+    color: var(--main-color);
+}
+/* PROFILE IMAGE COLOR */
+.headerTop-3C2Zn0 {
+    background-image: var(--profile-image);
+    position: relative;
+    background-size: cover;
+}
+
+.theme-dark .topSectionNormal-2-vo2m,
+.topSectionPlaying-1J5E4n {
+    background-image: var(--profile-image);
+    position: relative;
+    background-size: cover;
+}
+
+.theme-dark .body-3ND3kc, 
+ {
+    background-color: var(--main-color)
+}
+
+.bd-blue .tab-bar.TOP .tab-bar-item.selected {
+    border-bottom: 2px solid var(--channel-selected-color);
+    color: var(--channel-selected-color);
+}
+
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-color: #43b581;
+    color: var(--main-color);
+}
