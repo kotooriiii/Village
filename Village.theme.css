@@ -30,6 +30,10 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 
     /* FONTS */
     --main-font:"Gamja Flower";
+	/*DEFAULT FONT:
+		--chat-font: ;
+    		--font-size: 15px;
+	*/
     --chat-font: "Gamja Flower";
     --font-size: 16px;
 	
