@@ -1,24 +1,56 @@
-
 /*------------------ THE ACTUAL LOGIC . DONT DOWNLOAD FOR THEMES IN BD ---------------------------*/
 
 
 .wordmark-2iDDfm path {display: none}
-.wordmark-2iDDfm::after {font-family: var(--main-font); color: var(--main-color); white-space: pre;content: var(--username)"  (version 1.1)";position: absolute;left: 15px;width: 150px;font-size: 16px}
+.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 1.2)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
 
-
-/* Home Icon using the DM icon also known as the friend's private message icon.*/
-.theme-dark .homeIcon-1FoKUJ {
-    color: rgba(0, 0, 0, 0);
-    background-image: var(--dm-image);
-    background-size: cover;
-    position: relative;
-    
+/* NSFW Content */
+.theme-dark .title-1VcOOr {
+    text-indent: -9999px;
+    line-height: 0;
+}
+/* NSFW TITLE */
+.theme-dark .title-1VcOOr:after {
+    content: "Lewd Zone";
+    text-indent: 0;
+  display: block;
+  line-height: initial;
+    color:#ff8c00;
+}
+/* NSFW desc */
+.theme-dark .description-2ydcYn {
+    text-indent: -9999px;
+    line-height: 0;
 }
 
-.titleBar-AC4pGV {
-    -webkit-app-region: drag;
-    z-index: 3001;
+.theme-dark .description-2ydcYn:after {
+    content: "There may be content that is not suitable for all audiences.";
+    text-indent: 0;
+    display: block;
+     line-height: initial;
+    color: #ff8c00;
 }
+
+/* NSFW CONTINUE */
+.actionRed-gYn8D3 {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+.actionRed-gYn8D3:before {
+    content: "OPPAI";
+    position: fixed;
+    text-indent: 0;
+    display: block;
+     line-height: initial;
+    color: #ffffff;
+}
+
+/* NOTIFICATION*/
+.wrapper-232cHJ {
+background-color: var(--notification-color);
+}
+ 
  
 /**FIXER **/
 .theme-dark .headerBar-UHpsPw,
@@ -78,7 +110,6 @@
 .theme-dark .lfg-3xoFkI,
 .video-3lOWa6,
 .theme-dark .private-channel-call,
-.appMount-3VJmYg,
 .container-2lgZY8,
 .channels-Ie2l6A,
 .container-PNkimc,
@@ -111,14 +142,7 @@
 .private-channels {
  background: rgba(0, 0, 0, --background-opacity);
 }
-/* Place the background image variable in this layer */
-.appMount-3VJmYg{
-    content: '';
-    background-image:var(--background-image);
-    background-size: cover;   
-    position: relative;
-    backface-visibility: hidden;
-}  
+
 
 /* top title bar opacity */
 .titleBar-AC4pGV::after {content:"";background: rgba(0, 0, 0, calc(var(--background-opacity) + 0.3));position:absolute; z-index:-1; top:0; left:0; right:0; width:100%; height:22px}
@@ -163,6 +187,41 @@
     font-family: var(--main-font);
 
 }
+/* tooltip for guilds */
+.bd-blue .tooltip {
+    background-color: var(--main-color);
+}
+
+/* unread messages */
+.unread-1xRYoj {
+    background-color: var(--main-color);
+}
+/* new message in friends dm*/
+.mention-1f5kbO {
+    background-color: var(--notification-color);
+}
+
+/* selected members */
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
+    background-color:var(--channel-selected-color);
+    color: #fff;
+}
+/* hovering in guild members */
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+    background-color: var(--hover-color);
+    color: #fff;
+}
+
+/* selected in dm friends */
+.channel-2QD9_O.selected-1HYmZZ a {
+background-color: var(--channel-selected-color)
+} 
+
+/* hovering in dm friends */
+.channel-2QD9_O:hover a {
+    background-color: var(--hover-color);
+    color: #fff;
+}
 
 /* unread channel */
 .nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
@@ -173,8 +232,14 @@
 /* channel selected color */
 .contentSelectedText-3wUhMi{
     background-color: var(--channel-selected-color);
-
 }
+
+/* channel selected on hover */
+.contentSelectedText-3wUhMi:hover{
+    background-color: var(--channel-selected-color);
+}
+
+/* font for all chat */
 .da-name .da-overflowEllipsis {
         font-family: var(--main-font);
      
@@ -201,6 +266,7 @@
     vertical-align: -.4em;
     width: var(--emoji-size);
 }
+/* hovering on profile */
 .bda-dark #bda-qem:hover button:hover {
     background-color: var(--hover-color);
 
@@ -214,6 +280,8 @@
     background-color: var(--channel-selected-color);
 }
 
+
+
 .bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j,
 .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar, .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container{
     background-color: var(--emoji-menu-background);
@@ -226,27 +294,14 @@
     background-color:transparent;
 }
 .emojiItem-109bjA>.spriteItem-2AFL7r:hover{
-    transform: scale(1.2);
 }
 
 .theme-dark .headerNormal-T_seeN,
-.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .headerPlaying-j0WQBV {
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .headerPlaying-j0WQBV, .theme-dark .body-3ND3kc {
     background-color: rgba(47, 49, 54, 0.86);
     color: var(--main-color);
 }
-/* PROFILE IMAGE COLOR */
-.headerTop-3C2Zn0 {
-    background-image: var(--profile-image);
-    position: relative;
-    background-size: cover;
-}
 
-.theme-dark .topSectionNormal-2-vo2m,
-.topSectionPlaying-1J5E4n {
-    background-image: var(--profile-image);
-    position: relative;
-    background-size: cover;
-}
 
 .theme-dark .body-3ND3kc, 
  {

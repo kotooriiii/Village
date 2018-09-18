@@ -10,17 +10,19 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 */
 
 /* IMPORT CSS FROM GITHUB, this is the ENTIRETY logic and "makeup" for discord's feel. */
-/*@import url('https://rawgit.com/KotoriXIII/VillageTheme/master/VillageLogic.css'); 
 @import url('https://rawgit.com/KotoriXIII/Village/master/VillageLogic.css'); 
-*/@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
 
 /* ========== CUSTOMIZABLE VARIABLES ========== */
 :root {
     /* USERNAME */
     --username: "Kotori"; /*For wordmark top left. */
-    --username-color: green; /* For colored word mark top left */
+    --username-color: rgb(255, 100, 73); /* For colored word mark top left */
+    --username-font-size: 18px;
+    --username-font: "Gamja Flower";
     /* COLORS */
     --main-color: #696969; /* Colors that will differentiate colors like pins, help, etc */
+    --notification-color: rgba(177, 17, 6, 0.925);
     --voice-user-color: #008085; /* A connected voice user. The color of a member in a voice channel */
     --hover-color: rgba(57, 101, 167, 0.2); /* Hovering over channels or guilds will give you this color */
     --hover-text-color: grey; /* If you wish to change text color as well, do so, but I suggest keep it the same as channel color */
@@ -35,21 +37,56 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     --main-font: "Gamja Flower"; /* All other fonts aside chat */
     --chat-font: ; /*default discord font */
     --font-size: 15px; /* only affects chat font */
-	
-    /* IMAGE */
-	--background-image: url(https://wallpapercave.com/wp/wp1951626.jpg);	
-    --dm-image: url(https://i.pinimg.com/originals/09/6d/f0/096df0eb195b8f0d9475924f9a1e9425.jpg);
-    --profile-image: url(https://cdna.artstation.com/p/assets/images/images/006/079/376/large/way-way-juren4.jpg?1495894329);
-	--nsfw-image: url(https://s-media-cache-ak0.pinimg.com/236x/74/a4/e6/74a4e6b39c343529e2933bd8f59a696e.jpg);
-	
+		
     /* MISC */
     --background-opacity: 0.1; 
     --emoji-size: 1.5em;
-    
-    /* SETTINGS */
-
+   
     /*
      Let me know what other settings I should add ^-^. Kotori#4236
     */
     
 }
+/* IMAGE LINKS AND CUSTOMIZATION*/
+
+/* BACKGROUND IMAGES : Place the background image variable in this layer */
+.appMount-3VJmYg{
+    background-image: url('https://wallpapercave.com/wp/wp1951626.jpg');
+    background-size: cover;   
+    background-position: center;
+    position: relative;
+}  
+
+/* DM IMAGE : Home Icon using the DM icon also known as the friend's private message icon.*/
+.theme-dark .homeIcon-1FoKUJ {
+    color: rgba(0, 0, 0, 0);
+    background-image: url('https://i.pinimg.com/originals/09/6d/f0/096df0eb195b8f0d9475924f9a1e9425.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+/* PROFILE IMAGE  | CLICK ONCE (i.e shows games and note)*/
+.headerTop-3C2Zn0 {
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/006/079/376/large/way-way-juren4.jpg?1495894329);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+/* PROFILE IMAGE | ENTIRE PROFILE (i.e: mutual friends, servers, etc) */
+.theme-dark .topSectionNormal-2-vo2m,
+.topSectionPlaying-1J5E4n {
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/006/079/376/large/way-way-juren4.jpg?1495894329);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+
+/* NSFW IMAGE | you know this image... once you enter a nsfw channel */
+.theme-dark .image-2LqJex {
+    background-image: url(https://pm1.narvii.com/6457/da28ac7d6854d7278c19ebbbbd567c902c20ad8c_hq.jpg);
+}
+
+
