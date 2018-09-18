@@ -1,4 +1,4 @@
-//META{"name":"Village","description":"no desc available yet","author":"Kotori#4236","version":"1.0"}*//{}
+//META{"name":"Village","description":"A fresh lightweight theme for Discord with 15+ customizable variables for your use!","author":"Kotori#4236","version":"1.0"}*//{}
 
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -10,28 +10,31 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 */
 
 /* IMPORT CSS FROM GITHUB, this is the ENTIRETY logic and "makeup" for discord's feel. */
-@import url('https://rawgit.com/KotoriXIII/VillageTheme/master/VillageLogic.css'); 
+/*@import url('https://rawgit.com/KotoriXIII/VillageTheme/master/VillageLogic.css'); 
 @import url('https://rawgit.com/KotoriXIII/Village/master/VillageLogic.css'); 
-@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+*/@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
 
 /* ========== CUSTOMIZABLE VARIABLES ========== */
 :root {
+    /* USERNAME */
+    --username: "Kotori"; /*For wordmark top left. */
+    --username-color: green; /* For colored word mark top left */
     /* COLORS */
-    --main-color: #696969;
-    --voice-user-color: #008085;
-    --hover-color: rgba(57, 101, 167, 0.2);
-    --hover-text-color: grey;
-    --channel-color: grey;
-    --unread-color: white;
-    --channel-selected-color: rgb(124, 65, 70);
-    --voice-speak-color: rgb(107, 69, 66);
-    --chat-color: white;
-    --emoji-menu-background: rgba(65, 24, 0, 0.9);
+    --main-color: #696969; /* Colors that will differentiate colors like pins, help, etc */
+    --voice-user-color: #008085; /* A connected voice user. The color of a member in a voice channel */
+    --hover-color: rgba(57, 101, 167, 0.2); /* Hovering over channels or guilds will give you this color */
+    --hover-text-color: grey; /* If you wish to change text color as well, do so, but I suggest keep it the same as channel color */
+    --channel-color: grey; /* The default channel color (read messages) */
+    --unread-color: white; /* Unread messages in a text channel */
+    --channel-selected-color: rgb(124, 65, 70); /* A selected text channel when typing will show you what channel you're in */
+    --voice-speak-color: rgb(107, 69, 66); /* When a voice user speaks in a voice channel, what color do you like to show! */
+    --chat-color: white; /* color from chat messaging */
+    --emoji-menu-background: rgba(65, 24, 0, 0.9); /*emoji menu background when sending messages*/
 
     /* FONTS */
-    --main-font: "Gamja Flower";
-    --chat-font: ;
-    --font-size: 15px;
+    --main-font: "Gamja Flower"; /* All other fonts aside chat */
+    --chat-font: ; /*default discord font */
+    --font-size: 15px; /* only affects chat font */
 	
     /* IMAGE */
 	--background-image: url(https://wallpapercave.com/wp/wp1951626.jpg);	
@@ -40,7 +43,7 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 	--nsfw-image: url(https://s-media-cache-ak0.pinimg.com/236x/74/a4/e6/74a4e6b39c343529e2933bd8f59a696e.jpg);
 	
     /* MISC */
-	--background-opacity: 0.1; 
+    --background-opacity: 0.1; 
     --emoji-size: 1.5em;
     
     /* SETTINGS */
@@ -48,8 +51,5 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     /*
      Let me know what other settings I should add ^-^. Kotori#4236
     */
-
-
+    
 }
-
-  
