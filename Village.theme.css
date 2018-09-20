@@ -9,8 +9,8 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 ---------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-/* IMPORT CSS FROM GITHUB, this is the ENTIRETY logic and "makeup" for discord's feel. */
-@import url('https://rawgit.com/KotoriXIII/Village/master/VillageLogic.css'); 
+/* IMPORT CSS FROM GITHUB, this is the ENTIRETY logic and "makeup" for discord's feel. 
+@import url('https://rawgit.com/KotoriXIII/Village/master/VillageLogic.css'); */
 
 @import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
 
@@ -18,16 +18,16 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 :root {
     /* USERNAME */
     --username: "Kotori"; /*For wordmark top left. */
-    --username-color: rgb(255, 100, 73); /* For colored word mark top left */
-    --username-font-size: 18px;
+    --username-color: rgb(255, 100, 73); /* For colored word mark top left and @mentions in chat*/
+    --username-font-size: 18px; 
     --username-font: "Gamja Flower";
     /* COLORS */
-    --main-color: #696969; /* Colors that will differentiate colors like pins, help, etc */
-    --notification-color: rgb(255, 100, 73); /* mentioned @user @everyone @here  etc in a guild AND notification in DM*/
+    --main-color: #696969; /* For things like pins, help, public bar, initial color in a guild, you won't miss it.  etc */
+    --notification-color: rgb(255, 100, 73); /* notification mention @user @everyone @here in a guild AND notification from DM*/
     --notification-mention-color: rgb(73, 85, 255); /* guild message */
     --voice-user-color: #00c8cf; /* A connected voice user. The color of a member in a voice channel */
     --hover-color: rgba(57, 101, 167, 0.2); /* Hovering over channels or guilds will give you this color */
-    --hover-text-color: grey; /* If you wish to change text color as well, do so, but I suggest keep it the same as channel color */
+    --hover-text-color: grey; /* If you wish to change text color as well, do so, but I suggest keep it the same as variable: channel-color */
     --channel-color: grey; /* The default channel color (read messages) */
     --unread-color: white; /* Unread messages in a text channel */
     --channel-selected-color: rgb(124, 65, 70); /* A selected text channel when typing will show you what channel you're in */
@@ -45,8 +45,11 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     --emoji-size: 1.5em;
 
     /* GUILDS COLUMN OPTIONS */
-    --columns: 1; /*amount of columns to show*/
+    --columns: 2; /*amount of columns to show*/
     --spacer: 0px; /* spacing between guilds, i wouldnt change */
+    --nocollapsiblegrid: 1; /*This variable is used to manipulate whether you'd like to hover over your guilds to popout.  
+    COMMENT THIS ENTIRE LINE IF YOU want animations :) .. EXAMPLE BELOW: */
+    /* --nocollapsiblegrid: 1; EXAMPLE */
     
     /*
      Let me know what other settings I should add ^-^. Kotori#4236
@@ -97,8 +100,6 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 }
 
 
-
-    
     
     
     
