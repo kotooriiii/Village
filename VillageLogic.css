@@ -13,7 +13,7 @@
 
 
 .wordmark-2iDDfm path {display: none}
-.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 1.41)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
+.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 1.42)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
 
 .emojiItem-109bjA:hover {
     transform: scale(1.5);
@@ -529,6 +529,7 @@
 
 .guildInner-3DSoA4t, .guildInner-3DSoA4, .da-guildInner, .bd-blue{
     background: var(--main-color) !important;
+    transition: background-color 1.5s ease-in;
 }
 
 .theme-dark .guild-1EfMGQ .guildIcon-CT-ZDq {
@@ -558,7 +559,3 @@
 }
 /* END OF GUILD COLUMNS
       
-
-
-
-    
