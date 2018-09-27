@@ -13,7 +13,7 @@
 
 
 .wordmark-2iDDfm path {display: none}
-.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 1.42)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
+.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 1.43)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
 
 .emojiItem-109bjA:hover {
     transform: scale(1.5);
@@ -272,11 +272,23 @@
         box-shadow: 0 0 0 2px var(--voice-speak-color), inset 0 0 0 1.5px #2f3136;
     }
     
+   /* timestmamp color */
+   .theme-dark .timestampCozy-2hLAPV {
+    color: var(--timestamp-color);
+}
+
+
     /* chat color */
-    .theme-dark .markup-2BOw-j {
-        color: var(--chat-color);
-        font-family: var(--chat-font);
-        font-size: var(--font-size);
+    .theme-dark .markup-2BOw-j  {
+    color: var(--chat-color);
+    font-family: var(--chat-font);
+    font-size: var(--font-size);
+    }
+
+    .username-_4ZSMR, .usernameWrapper-1S-G5O .username-_4ZSMR {
+    color: var(--chat-color);
+    font-family: var(--chat-font);
+    font-size: calc(var(--font-size) + 1px);
     }
     /* emoji */
     .emoji, .emoji.jumboable {
@@ -408,13 +420,14 @@
 }
 
 .da-guildsWrapper .da-guilds .unread-qLkInr:not(.selected-ML3OIq)::before {
-	position: absolute;
-	left: 2px;
-	top: 10px;
-	z-index: 9000;
-	width: calc(12px );
-	height: calc(12px);
-	border-radius: 100%;
+    position: absolute;
+    left: 2px;
+    top: 10px;
+    z-index: 9000;
+    width: calc(12px );
+    height: calc(12px);
+    border-radius: 100%;
+    border-style: solid;
 }
 
 /* guild notif */
