@@ -12,6 +12,11 @@
     background: rgba(54, 57, 63, 0);
 }
 
+.theme-dark .guildSeparator-1X4GQ1:after {
+    margin-left: -4px;
+    background: #2f3136;
+}
+
 /* @here */
 .bd-blue .mention {
     color: var(--username-color);
