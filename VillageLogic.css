@@ -21,11 +21,46 @@
     background: transparent;
 }
 
+
+/* top guild for servr not aligning correctly */
+.da-guilds 
+.guild-1EfMGQ:not(:first-child):not(#bd-pub-li):not(#RANbutton-frame):not(.da-guildsAdd) {
+    padding: 4px 4px 4px 4px;
+    margin-left: 4px;
+}
+
+/* dm pop out and home icon for dm */
+.da-guildsWrapper .da-guilds .guild-1EfMGQ:first-child {
+    position: relative;
+    margin: 0px var(--margincentering, auto) 0px var(--margincentering, auto);
+    margin-left: 8px;
+}
+
+/* public button */
+.da-appMount .guild-1EfMGQ+.guild-1EfMGQ {
+    margin: auto;
+    padding: 4px 4px 4px 4px;
+    margin-left: 4px;
+}
+
+/* friends list */
+
+.da-guildsWrapper .da-guilds .da-friendsOnline {
+    top: 12px;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -4px;
+}
+
+
 /*------------------ THE ACTUAL LOGIC . DONT DOWNLOAD FOR THEMES IN BD ---------------------------*/
 
 
 .wordmark-2iDDfm path {display: none}
-.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 1.5)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
+.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 1.6)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
 
 .emojiItem-109bjA:hover {
     transform: scale(1.5);
