@@ -15,5 +15,3 @@ A fresh lightweight theme for Discord with 15+ customizable variables for your u
 6) Go to User Settings in Discord => Go to Themes => Select "Village" and slide it on!
 
 7) Enjoy!!!
-
-P.S: You'll have to restart Discord everytime you change a variable in the file in order for your settings to update. I suggest you also download RestartNoMore :  https://betterdiscord.net/ghdl?id=812 . This will allow real-time updates every time the theme file is changed. Add this one one the plugins folder and restart discord ! :)
