@@ -1,3 +1,4 @@
+
 /* EDITS */
 /* background of user settings */
 .theme-dark .standardSidebarView-3F1I7i {
@@ -12,8 +13,13 @@
     background: rgba(54, 57, 63, 0);
 }
 
+.guildSeparator-1X4GQ1 {
+    left: 7px;
+}
+
 .theme-dark .guildSeparator-1X4GQ1:after {
-    margin-left: -4px;
+    margin-left: -6px;
+	margin-right: -6px;
     background: #2f3136;
 }
 
@@ -31,21 +37,22 @@
 .da-guilds 
 .guild-1EfMGQ:not(:first-child):not(#bd-pub-li):not(#RANbutton-frame):not(.da-guildsAdd) {
     padding: 4px 4px 4px 4px;
-    margin-left: 4px;
+	left: 3px;
+
 }
 
 /* dm pop out and home icon for dm */
 .da-guildsWrapper .da-guilds .guild-1EfMGQ:first-child {
     position: relative;
     margin: 0px var(--margincentering, auto) 0px var(--margincentering, auto);
-    margin-left: 8px;
+    margin-left: 7px;
 }
 
 /* public button */
 .da-appMount .guild-1EfMGQ+.guild-1EfMGQ {
     margin: auto;
     padding: 4px 4px 4px 4px;
-    margin-left: 4px;
+    margin-left: 7px;
 }
 
 /* friends list */
@@ -58,6 +65,7 @@
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: -4px;
+	left: 7px;
 }
 
 
@@ -65,7 +73,7 @@
 
 
 .wordmark-2iDDfm path {display: none}
-.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 1.63)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
+.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 2.0)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
 
 .emojiItem-109bjA:hover {
     transform: scale(1.5);
@@ -436,6 +444,7 @@
 
 #bd-pub-li {
 	top: 6px;
+	display: none;
 }
 
 .da-guildsWrapper, .da-guildsWrapper .da-scrollerWrap {
@@ -518,30 +527,49 @@
 	padding-right: 14px;
 }
 
-.da-guildsAdd span.da-guildsAddInner {
-	font-size: var(--addfontsize, 40px);
-	position: relative;
-	left: -1px;
-	top: -1px;
-	height: var(--meadiatorheight, 50px);
-	width: var(--meadiatorwidth, 50px);
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	flex-flow: column wrap;
+/* left side of user settings interface */
+.theme-dark .sidebarRegion-VFTUkN {
+    background: rgba(0, 0, 0, 0.75);
+}
+/* right side of user settings interface */
+
+.theme-dark .contentRegion-3nDuYy {
+    background: rgba(0, 0, 0, 0.75);
 }
 
+/*gui for create join server */
+.theme-dark .action-1lSjCi, .theme-light .action-1lSjCi {
+    background: hsla(258, 41%, 20%, 0.75);
+} 
+
+/*button for creating or joining server */
 .da-appMount .da-guildsWrapper .da-guilds .da-guildsAdd {
 	width: var(--meadiatorwidth, 50px);
 	height: var(--meadiatorheight, 50px);
 	border-radius: var(--guildborderradius, 50%);
-	left: -3px;
+	left: 6px;
 	box-sizing: border-box;
-	position: static;
+	position: relative;
 	margin-top: 4px;
 	margin-bottom: 4px;
+	
+	transition: all .2s ease-in-out;
 }
+
+/* scaling the button to join/create server */
+.da-appMount .da-guildsWrapper .da-guilds .da-guildsAdd:hover {
+
+	transform: scale(1.1);		
+  }
+  
+  /*wrapper for create/join another server */
+  .theme-light .wrapper-2ZbzR9 {
+    background: #bd0c0c00;
+}
+  
+  .theme-light .slide-2pHaq5 {
+	background: #e3e6f100;
+  }
 
 .da-guilds .guild-1EfMGQ:not(:first-child):not(#bd-pub-li):not(#RANbutton-frame):not(.da-guildsAdd) {
 	padding: 4px 4px 4px 4px;

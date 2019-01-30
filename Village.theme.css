@@ -23,8 +23,9 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     --username-font: "Gamja Flower";
     /* COLORS */
     --main-color: #696969; /* For things like pins, help, public bar, initial color in a guild, you won't miss it.  etc */
-    --notification-color: rgb(173, 64, 44); /* if you were mentioned in a guild OR notification from DM*/
-    --notification-mention-color: rgb(73, 85, 255); /* guild message */
+    --notification-color: rgb(173, 64, 44); /* if you were mentioned/tagged in a guild OR notification from friends private messaging*/
+    --notification-mention-color: rgb(73, 85, 255); /* guild unread message */
+    --notification-mention-outline-color: white;
     --voice-user-color: #00c8cf; /* A connected voice user. The color of a member in a voice channel */
     --hover-color: rgba(57, 101, 167, 0.2); /* Hovering over channels or guilds will give you this color */
     --hover-text-color: grey; /* If you wish to change text color as well, do so, but I suggest keep it the same as variable: channel-color */
@@ -42,12 +43,10 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     --font-size: 15px; /* only affects chat font */
 		
     /* MISC */
-    --background-opacity: 0.1; 
+    --background-opacity: 0.15; 
     --emoji-size: 1.5em;
 
     /* GUILDS COLUMN OPTIONS */
-    --columns: 1; /*amount of columns to show*/
-    --spacer: 0px; /* spacing between guilds, i wouldnt change */
     --nocollapsiblegrid: collapse; /*This variable is used to manipulate whether you'd like to hover over your guilds to popout. To change -> (inherit / collapse)
     
     /*
@@ -59,8 +58,8 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 
 
 /* BACKGROUND IMAGES : Place the background image variable in this layer */
-.appMount-3VJmYg{
-    background-image: url('https://wallpapercave.com/wp/wp1951626.jpg');
+.appMount-3lHmkl {
+    background-image: url('https://wallpapercave.com/wp/wp1951626.jpg'); /* Sea and Your Name url('https://wallpapercave.com/wp/wp1951626.jpg');*/
     background-size: cover;   
     background-position: center;
     position: relative;
