@@ -10,7 +10,7 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 */
 
 /* IMPORT CSS FROM GITHUB, this is the ENTIRETY logic and "makeup" for discord's feel. */
-@import url('https://rawgit.com/KotoriXIII/Village/master/VillageLogic.css'); 
+@import url('https://rawgit.com/KotoriXIII/Village/master/VillageLogic.css');  
 
 @import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
 
@@ -47,7 +47,8 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     --emoji-size: 1.5em;
 
     /* GUILDS COLUMN OPTIONS */
-    --nocollapsiblegrid: collapse; /*This variable is used to manipulate whether you'd like to hover over your guilds to popout. To change -> (inherit / collapse)
+    --nocollapsiblegrid: collapse; /*This variable is used to manipulate whether you'd like to hover over your guilds to popout. To change -> (inherit / collapse) */
+	--vcolumns: 1;
     
     /*
      Let me know what other settings I should add ^-^. Kotori#4236
@@ -97,10 +98,10 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     background-image: url(https://pm1.narvii.com/6457/da28ac7d6854d7278c19ebbbbd567c902c20ad8c_hq.jpg);
 }
 
-      
 
-
-    
+	
+	
+	
 
     
     
