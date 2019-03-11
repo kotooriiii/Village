@@ -49,7 +49,7 @@
 
 
 .wordmark-2iDDfm path {display: none}
-.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 2.6)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
+.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 2.7)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
 
 .emojiItem-109bjA:hover {
     transform: scale(1.5);
@@ -461,18 +461,6 @@
     color: #4c8dff;
 }
 
-/*notif in dm */
-.da-badge {
-	box-sizing: border-box;
-	display: table-cell;
-	bottom: calc(15px);
-	left: 0px;
-	position: relative;
-	padding: calc(2px ) calc(4px ) calc(2px ) calc(4px);
-	background-color: var(--notification-color);
-	text-align: center;
-	vertical-align: middle;
-}
 
 .da-dms .da-badge {
 	top: -50px;
