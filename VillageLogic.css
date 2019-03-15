@@ -598,10 +598,10 @@
 /*End of scrollbar fix.*/
 
 .wrapper-1Rf91z {
-	width: calc(1px * ((50 + 10) * var(--vcolumns) + 35 - 25)) !important;
+	width: calc(1px * ((50 + 10) * var(--vcolumns, 1) + 35 - 25)) !important;
 }
 .wrapper-1Rf91z .scrollerWrap-1IAIlv {
-	width: calc(1px * ((50 + 10) * var(--vcolumns) + 35)) !important;
+	width: calc(1px * ((50 + 10) * var(--vcolumns, 1) + 35)) !important;
 }
 .wrapper-1Rf91z,
 .wrapper-1Rf91z .scrollerWrap-1IAIlv {
@@ -627,7 +627,7 @@
 .wrapper-1Rf91z .scroller-2TZvBN #server-search,
 .wrapper-1Rf91z .scroller-2TZvBN .lurkingGuild-3ZJ1gi,
 .wrapper-1Rf91z .scroller-2TZvBN .container-1ETFDs {
-	margin: 4px calc(1px * (((50 + 10) * (var(--vcolumns) - 1))/2)) !important;
+	margin: 4px calc(1px * (((50 + 10) * (var(--vcolumns, 1) - 1))/2)) !important;
 }
 .wrapper-1Rf91z .scroller-2TZvBN .circleIconButton-jET_ig,
 .wrapper-1Rf91z .scroller-2TZvBN .lurkingGuild-3ZJ1gi .container-2td-dC {
@@ -736,7 +736,7 @@
 	background-size: calc(1px * (50/3)) !important;
 }
 .wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {
-	width: calc(1px * ((50 + 10) * var(--vcolumns) - 10)) !important;
+	width: calc(1px * ((50 + 10) * var(--vcolumns, 1) - 10)) !important;
 	margin: 10px 0 !important;
 }
 .wrapper-1Rf91z .scroller-2TZvBN .friendsOnline-2JkivW {
@@ -756,7 +756,7 @@
 .wrapper-1Rf91z .scroller-2TZvBN .friendsOnline-2JkivW,
 #bd-pub-li {
 	text-align: center;
-	margin: 4px calc(1px * (((50 + 10) * (var(--vcolumns) - 1) - ((50*4/5) + 10) + 50)/2)) !important;
+	margin: 4px calc(1px * (((50 + 10) * (var(--vcolumns, 1) - 1) - ((50*4/5) + 10) + 50)/2)) !important;
 }
 #bd-pub-li #bd-pub-button {
 	font-size: calc(1px * ((50/10) + 7)) !important;
