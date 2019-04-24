@@ -49,7 +49,6 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     /* GUILDS COLUMN OPTIONS */
     --nocollapsiblegrid: inherit; /*This variable is used to manipulate whether you'd like to hover over your guilds to popout. To change -> (inherit / collapse) */
 	--vcolumns: 1; /* columns */
-	--vguildroundness: 50%; /* Keep as 50% for best outcome*/
     
     /*
      Let me know what other settings I should add ^-^. Kotori#4236
@@ -100,11 +99,6 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 }
 
 
-    
-	
-	
-
-	
 	
 	
 
