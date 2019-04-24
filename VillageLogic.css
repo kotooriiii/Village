@@ -849,3 +849,7 @@
 #app-mount > div.app-19_DXt.da-app.platform-win > div > div.layers-3iHuyZ.da-layers.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.da-vertical.da-flex.da-directionColumn.spacer-1fA9zc.da-spacer > div > div > div.wrapper-1Rf91z.da-wrapper > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.da-scrollerWrap.da-firefoxFixScrollFlex.scrollerWrap-1IAIlv.da-scrollerWrap.scrollerThemed-2oenus.da-scrollerThemed.themeGhostHairline-DBD-2d > div > div:nth-child(2) > div > div.blob-3RT82C.da-blob.wrapper-25eVIn.da-wrapper > div > div > div{    background-color: var(--notification-color) !important;
 
 }
+
+.item-2hkk8m {
+	background-color: var(--main-color);
+}
