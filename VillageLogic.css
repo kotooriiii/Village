@@ -51,7 +51,7 @@
 
 
 .wordmark-2iDDfm path {display: none}
-.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 3.1)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
+.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 3.2)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
 
 .emojiItem-109bjA:hover {
     transform: scale(1.5);
@@ -113,6 +113,7 @@
     }
      
     
+
     /**FIXER **/
     .theme-dark .headerBar-UHpsPw,
     .theme-dark .chat-3bRxxu, 
@@ -175,7 +176,6 @@
     .channels-Ie2l6A,
     .container-PNkimc,
     .container-2Thooq,
-    .theme-dark .title-3qD0b-,
     .theme-dark .typing-2GQL18,
     .search-bar.search-bar-light,
     .theme-dark .layer-3QrUeG, 
@@ -189,9 +189,18 @@
       backface-visibility: hidden;
       
     }
+	
+	.theme-dark .transparent-2ZlE3R .title-29uC1r:not(.titleMuted-LYRtm8), .theme-light .transparent-2ZlE3R .title-29uC1r:not(.titleMuted-LYRtm8) {
+		color: var(--main-color);
+	}
+	
+	/* pins and search */
+	.theme-dark .transparent-2ZlE3R .clickable-3rdHwn .icon-22AiRD, .theme-light .transparent-2ZlE3R .clickable-3rdHwn .icon-22AiRD {
+	 color: var(--main-color);
+	 }
     
-    
-    /* top bar */
+
+   /* top bar */
     
     
     .theme-dark .iconForeground-3y9f0B, .theme-dark .title-1aVOXw {
@@ -256,6 +265,9 @@
         background-color: var(--main-color);
     }
     
+
+
+
     /* unread messages */
     .unread-1xRYoj {
         background-color: var(--main-color);
@@ -318,6 +330,7 @@
    .theme-dark .timestampCozy-2hLAPV {
     color: var(--timestamp-color);
 }
+
 
 
     /* chat color */
@@ -383,6 +396,10 @@
 .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
     background-color: var(--hover-color);
 }
+
+
+
+
 
 /* friends notif request add me pls*/
 .tabBar-1E2ExX .badge-xFJoEU {
@@ -477,6 +494,8 @@
 .da-guildsWrapper .da-scroller {
 	padding-right: 14px;
 }
+
+
 
 /* left side of user settings interface */
 .theme-dark .sidebarRegion-VFTUkN {
@@ -861,4 +880,9 @@
     position: unset;
     
 }
+
+	
+	
+    
+ 
 
