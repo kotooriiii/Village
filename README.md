@@ -6,7 +6,7 @@ A fresh lightweight theme for Discord with 15+ customizable variables for your u
 
 2) Go to User Settings in Discord => Go to Themes => Open Themes Folder (If there's an error visit: https://0x71.cc/bd/troubleshoot)
 
-3) Open the raw theme file here: https://raw.githubusercontent.com/KotoriXIII/Village/master/VillageLogic.css
+3) Open the raw theme file here: https://raw.githubusercontent.com/KotoriXIII/Village/master/Village.theme.css
 
 4) Right click anywhere on the file and Save As. Save the file on the Themes Folder directory.
 
