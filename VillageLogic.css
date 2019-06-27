@@ -51,7 +51,7 @@
 
 
 .wordmark-2iDDfm path {display: none}
-.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 3.5)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
+.wordmark-2iDDfm::after {font-family: var(--username-font); color: var(--username-color); white-space: pre;content: var(--username)"  (version 4.0)";position: absolute;left: 15px;width: 150px;font-size: var(--username-font-size)}
 
 .emojiItem-109bjA:hover {
     transform: scale(1.5);
@@ -885,6 +885,149 @@
 
     position: unset;
     
+}
+
+.titleBar-AC4pGV.typeMacOS-3EmCyP,
+.titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC,
+.wrapper-1Rf91z,
+.wrapper-1Rf91z.foldercontent.foldercontentopen,
+.wrapper-1Rf91z .unreadMentionsIndicatorTop-gA6RCh,
+.wrapper-1Rf91z .unreadMentionsIndicatorBottom-BXS58x {
+	width: calc(1px * ((50 + 10) * var(--vcolumns) + 35 - 25)) !important;
+}
+.titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
+	padding-right: calc(1px * ((50 + 10) * var(--vcolumns) - 50)) !important;
+}
+body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP,
+body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
+	width: calc(2px * ((50 + 10) * var(--vcolumns) + 35 - 25)) !important;
+}
+body.foldercontentopened .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC {
+	padding-right: calc(1px * ((50 + 10) * var(--vcolumns) * 2 - 40)) !important;
+}
+.titleBar-AC4pGV.typeMacOS-3EmCyP.typeMacOSWithFrame-3R_i5S .macButtons-2MuSAC {
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+}
+.wrapper-1Rf91z .scrollerWrap-1IAIlv {
+	width: calc(1px * ((50 + 10) * var(--vcolumns) + 35)) !important;
+}
+.wrapper-1Rf91z,
+.wrapper-1Rf91z .scrollerWrap-1IAIlv {
+	padding: 0 !important;
+}
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
+	padding: 0 0 10px 10px !important;
+	margin: 0 !important;
+	display: flex !important;
+	flex-flow: row wrap !important;
+	align-content: flex-start !important;
+}
+.wrapper-1Rf91z .listItem-2P_4kh {
+	margin: 4px 13px 4px -2px !important;
+}
+.wrapper-1Rf91z #server-search {
+	margin: 4px calc(1px * (((50 + 10) * (var(--vcolumns) - 1))/2)) !important;
+}
+.wrapper-1Rf91z .pill-2uzAFe ~ .listItemWrapper-3X98Pc {
+	margin: 0 calc(1px * (((50 + 10) * (var(--vcolumns) - 1))/2)) 4px calc(1px * ((((50 + 10) * (var(--vcolumns) - 1))/2) + 2)) !important;
+}
+.wrapper-1Rf91z .pill-1m5BUr ~ .listItemWrapper-3X98Pc {
+	margin: 0 calc(1px * ((((50 + 10) * (var(--vcolumns) - 1))/2) * (1 - 1))) 0 calc(1px * (((0 * 1) + ((((50 + 10) * (var(--vcolumns) - 1))/2) * (1 - 1))))) !important;
+}
+.wrapper-1Rf91z .blobContainer-239gwq,
+.wrapper-1Rf91z .circleButtonMask-2VNJsN,
+.wrapper-1Rf91z .guildsError-b7zR5H {
+	margin: 0 !important;
+}
+.wrapper-1Rf91z .listItem-2P_4kh {
+	width: auto !important;
+}
+.wrapper-1Rf91z .svg-1X37T1,
+.wrapper-1Rf91z .wrapper-25eVIn {
+	height: calc(1px * 50) !important;
+	width: calc(1px * 50) !important;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > div[style*="height"]:not([class]) {
+	height: calc(1px * 50 * (58/50)) !important;
+}
+.wrapper-1Rf91z .upperBadge-2XnnGB .base-PmTxvP {
+	transform: translate(calc(1.5px * ((50 - 50)/10)), calc(-1.5px * ((50 - 50)/10))) scale(calc(50/50)) !important;
+}
+.wrapper-1Rf91z .upperBadge-2XnnGB.count .base-PmTxvP {
+	transform: translate(calc(-1.5px * ((50 - 50)/10)), calc(-1.5px * ((50 - 50)/10))) scale(calc(50/50)) !important;
+}
+.wrapper-1Rf91z .lowerBadge-29hYVK .base-PmTxvP {
+	transform: translate(calc(1.5px * ((50 - 50)/10)), calc(1.5px * ((50 - 50)/10))) scale(calc(50/50)) !important;
+}
+.wrapper-1Rf91z .lowerBadge-29hYVK.unread-count-badge .base-PmTxvP {
+	transform: translate(calc(-1.5px * ((50 - 50)/10)), calc(1.5px * ((50 - 50)/10))) scale(calc(50/50)) !important;
+}
+.wrapper-1Rf91z .wrapper-sa6paO {
+	top: -5px !important;
+	height: calc(1px * (50 + 10)) !important;
+	transform: scaleY(calc(50/50)) !important;
+}
+.wrapper-1Rf91z .pill-2uzAFe {
+	top: -2px !important;
+	left: calc(1px * ((((50 + 10) * (var(--vcolumns) - 1))/2) - 7)) !important;
+}
+.wrapper-1Rf91z .pill-1m5BUr {
+	left: calc(1px * (((13 * 1) + ((((50 + 10) * (var(--vcolumns) - 1))/2) * (1 - 1))) - 21)) !important;
+}
+.wrapper-1Rf91z .pill-31IEus,
+.wrapper-1Rf91z .pill-3YxEhL {
+	left: -7px !important;
+}
+.wrapper-1Rf91z .guildSeparator-3s64Iy {
+	width: calc(1px * ((50 + 10) * var(--vcolumns) - 10)) !important;
+	margin: 5px 0 !important;
+	display: block !important;
+}
+.wrapper-1Rf91z .guildsError-b7zR5H {
+	height: calc(1px * 50) !important;
+	width: calc(1px * 50) !important;
+	font-size: calc(1px * (50/4 + 7.5)) !important;
+	line-height: calc(1px * (50/4 + 6.5)) !important;
+}
+.wrapper-1Rf91z #bd-pub-li,
+.wrapper-1Rf91z #bd-pub-li #bd-pub-button,
+.wrapper-1Rf91z .RANbutton-frame,
+.wrapper-1Rf91z .RANbutton-frame .RANbutton {
+	height: calc(1px * ((50/5) + 10)) !important;
+}
+.wrapper-1Rf91z .friendsOnline-2JkivW {
+	font-size: calc(1px * ((50/8) + 3.75)) !important;
+}
+.wrapper-1Rf91z .friendsOnline-2JkivW,
+.wrapper-1Rf91z #bd-pub-li,
+.wrapper-1Rf91z .RANbutton-frame {
+	width: calc(1px * ((50*4/5) + 10)) !important;
+}
+.wrapper-1Rf91z .friendsOnline-2JkivW,
+.wrapper-1Rf91z #bd-pub-li,
+.wrapper-1Rf91z .RANbutton-frame {
+	text-align: center !important;
+	margin: 4px calc(1px * (((50 + 10) * (var(--vcolumns) - 1) - ((50*4/5) + 10) + 50)/2)) 4px calc(1px * (((50 + 10) * (var(--vcolumns) - 1) - ((50*4/5) + 10) + 50)/2)) !important;
+}
+.wrapper-1Rf91z #bd-pub-li #bd-pub-button,
+.wrapper-1Rf91z .RANbutton-frame .RANbutton {
+	font-size: calc(1px * ((50/8) + 5)) !important;
+	line-height: calc(1px * ((50/5) + 10)) !important;
+}
+
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, 
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, 
+.theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, 
+.theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
+	background-color: var(--channel-selected-color);
+}
+
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU, 
+.theme-light .wrapper-1ucjTd:hover .content-3at_AU {
+	background-color: var(--hover-color);
+
 }
 
 	
