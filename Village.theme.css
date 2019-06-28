@@ -34,8 +34,8 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     --channel-selected-color: rgba(192, 192, 192, 0.55); /* A selected text channel when typing will show you what channel you're in */
     --voice-speak-color: rgb(112, 39, 34); /* When a voice user speaks in a voice channel, what color do you like to show! */
     --chat-color: white; /* color from chat messaging */
-    --timestamp-color: orange;
-    --emoji-menu-background: rgba(65, 24, 0, 0.9); /*emoji menu background when sending messages*/
+    --timestamp-color: rgba(65, 131, 215, 1);
+    --emoji-menu-background: rgba(129, 129, 129, 0.1); /*emoji menu background when sending messages*/
 
     /* FONTS */
     --main-font: "Gamja Flower"; /* All other fonts aside chat */
@@ -43,12 +43,12 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     --font-size: 15px; /* only affects chat font */
 		
     /* MISC */
-    --background-opacity: 0.15; 
+    --background-opacity: 0.2; 
     --emoji-size: 1.5em;
 
     /* GUILDS COLUMN OPTIONS */
     --nocollapsiblegrid: inherit; /*This variable is used to manipulate whether you'd like to hover over your guilds to popout. To change -> (inherit / collapse) */
-	--vcolumns: 1; /* columns */
+	--vcolumns: 2; /* columns */
     
     /*
      Let me know what other settings I should add ^-^. Kotori#4236
@@ -99,9 +99,8 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 }
 
 
-  
-	
-	
+
+
     
  
 
