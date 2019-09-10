@@ -19,8 +19,8 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     /* USERNAME */
     --username: "Village"; /*For wordmark top left. */
     --username-color: rgb(255, 100, 73); /* For colored word mark top left and @mentions in chat*/
-    --username-font-size: 18px; 
     --username-font: "Gamja Flower";
+    --username-font-size: 18px; 
     /* COLORS */
     --main-color: #696969; /* For things like pins, help, public bar, initial color in a guild, you won't miss it.  etc */
     --notification-color: rgb(173, 64, 44); /* if you were mentioned/tagged in a guild OR notification from friends private messaging*/
@@ -48,7 +48,7 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 
     /* GUILDS COLUMN OPTIONS */
     --nocollapsiblegrid: inherit; /*This variable is used to manipulate whether you'd like to hover over your guilds to popout. To change -> (inherit / collapse) */
-	--vcolumns: 2; /* columns */
+	--vcolumns: 1; /* columns */
     
     /*
      Let me know what other settings I should add ^-^. Kotori#4236
@@ -102,8 +102,6 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 
 
     
- 
-
 
 
 
