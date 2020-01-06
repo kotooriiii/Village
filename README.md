@@ -1,7 +1,7 @@
 # VillageTheme
 A fresh lightweight theme for Discord with 15+ customizable variables for your use!
 
-
+![Theme Image](https://i.imgur.com/Xbjz2gC.jpg)
 1) Download and run BandagedBetterDiscord here: https://github.com/rauenzi/BetterDiscordApp/releases
 
 2) Go to User Settings in Discord => Go to Themes => Open Themes Folder (If there's an error visit: https://0x71.cc/bd/troubleshoot)
