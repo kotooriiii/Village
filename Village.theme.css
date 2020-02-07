@@ -43,7 +43,7 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
     --font-size: 15px; /* only affects chat font */
 		
     /* MISC */
-    --background-opacity: 0.13; 
+    --background-opacity: 0.12; 
     --emoji-size: 1.5em;
 
     /* GUILDS COLUMN OPTIONS */
@@ -60,8 +60,8 @@ IMPORTANT: Links must be HTTPS, you can use GIF, PNG, JPG!
 
 /* BACKGROUND IMAGES : Place the background image variable in this layer */
 .appMount-3lHmkl {
-    background-image: url('https://i.imgur.com/QztlVTN.jpg'); /* Sea and Your Name url('https://wallpapercave.com/wp/wp1951626.jpg');*/
-    background-size: cover;   
+    background-image: url('https://i.pinimg.com/originals/3e/05/ce/3e05ceaa145e3fef83a9d9caf3c1220d.jpg'); /* Sea and Your Name url('https://wallpapercave.com/wp/wp1951626.jpg');*/
+    background-size: contain;   
     background-position: center;
     position: relative;
 }  
