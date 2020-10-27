@@ -1114,4 +1114,25 @@ margin-top: 0px;
     left: 7px;
 }
 
+.contentWrapper-SvZHNd {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    -webkit-box-shadow: var(--elevation-stroke),var(--elevation-high);
+    box-shadow: var(--elevation-stroke),var(--elevation-high);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: grid;
+    left: -140px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    grid-template-rows: 24px auto;
+    grid-row-gap: 8px;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 16px;
+    position: relative;
+    z-index: 1;
+}
+
 
